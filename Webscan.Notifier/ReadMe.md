@@ -21,7 +21,7 @@ Use the Webscan.Notifier MicroService Settings format below within your appsetti
   "NotifierSettings": {
     "Sender": "me@gmail.com",
     "Reciever": "you@gmail.com",
-    "SmtpSender": "smtp.gmail.com",
+    "SmtpServer": "smtp.gmail.com",
     "Port": 587,
     "UserName": "username",
     "Password": "password"
