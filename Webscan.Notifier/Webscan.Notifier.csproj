@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.2.0</Version>
+    <Version>0.3.0</Version>
     <Authors>Cory Rolstad</Authors>
     <Product>Webscan.Notifier</Product>
     <Description>Email client for notification</Description>
     <Copyright>MIT</Copyright>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Notifier</PackageTags>
-    <PackageReleaseNotes>Added ReadMe.txt Popup on install</PackageReleaseNotes>
+    <PackageReleaseNotes>Documentation fix</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/CoryRolstad/Webscan.Notifier</RepositoryUrl>
     <PackageProjectUrl>https://github.com/CoryRolstad/Webscan.Notifier</PackageProjectUrl>
   </PropertyGroup>
