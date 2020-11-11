@@ -12,7 +12,7 @@
     <PackageTags>Notifier</PackageTags>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/CoryRolstad/Webscan.Notifier</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/CoryRolstad/Webscan.Notifier.git</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/CoryRolstad/Webscan.Notifier</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
