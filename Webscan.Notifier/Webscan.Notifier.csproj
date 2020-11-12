@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.3.0</Version>
+    <Version>0.4.0</Version>
     <Authors>Cory Rolstad</Authors>
     <Product>Webscan.Notifier</Product>
     <Description>Email client for notification</Description>
     <Copyright>MIT</Copyright>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Notifier</PackageTags>
-    <PackageReleaseNotes>Documentation fix</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed issue with DI and Configuration</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/CoryRolstad/Webscan.Notifier</RepositoryUrl>
     <PackageProjectUrl>https://github.com/CoryRolstad/Webscan.Notifier</PackageProjectUrl>
   </PropertyGroup>
@@ -19,6 +19,7 @@
     <PackageReference Include="MailKit" Version="2.9.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
     <PackageReference Include="MimeKit" Version="2.9.2" />
     <None Include="ReadMe.txt" pack="true" PackagePath="." />
   </ItemGroup>

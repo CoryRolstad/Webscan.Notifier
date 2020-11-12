@@ -9,7 +9,14 @@ namespace Webscan.Notifier
         {
             ValidateSettings(services, notifierSettings);
 
-            services.AddSingleton<NotifierSettings>(notifierSettings);
+            //services.AddSingleton<NotifierSettings>(notifierSettings);
+            services.Configure<NotifierSettings>("NotifierSettings", settings => {
+                settings.Port = notifierSettings.Port;
+                settings.UserName = notifierSettings.UserName;
+                settings.Password = notifierSettings.Password;
+                settings.Sender = notifierSettings.Sender;
+                settings.SmtpServer = notifierSettings.SmtpServer;
+            }); 
             services.AddTransient<INotifierService, NotifierService>();
             return services; 
         }
